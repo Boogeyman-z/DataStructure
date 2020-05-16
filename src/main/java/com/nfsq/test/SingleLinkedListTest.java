@@ -1,4 +1,6 @@
-package com.nfsq.linkedList;
+package com.nfsq.test;
+
+import com.nfsq.linkedList.SingleLinkedList;
 
 public class SingleLinkedListTest {
 

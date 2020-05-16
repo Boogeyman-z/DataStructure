@@ -37,6 +37,9 @@ public class SingleLinkedList {
 
     //在链表头删除元素
     public Object deleteHead() {
+        if(size == 0){
+            return null;
+        }
         Object data = head.data;
         head = head.next;
         size--;
